@@ -120,9 +120,9 @@ PRODUCT_PACKAGES += \
     camera.device@3.2-impl \
     camera.msm8953 \
     libmm-qcamera \
-    Snap \
     vendor.qti.hardware.camera.device@1.0 \
-    vendor.qti.hardware.camera.device@1.0_vendor
+    vendor.qti.hardware.camera.device@1.0_vendor \
+    Snap
 
 # Offline Charger
 PRODUCT_PACKAGES += \
@@ -149,7 +149,11 @@ PRODUCT_PACKAGES += \
     liboverlay \
     libqdMetaData.system \
     libgenlock \
-    libtinyxml
+    libtinyxml \
+    vendor.display.config@1.0 \
+    vendor.display.config@1.0_vendor \
+    vendor.display.color@1.0-service \
+    vendor.display.color@1.0-impl
 
 # Doze mode
 PRODUCT_PACKAGES += \
